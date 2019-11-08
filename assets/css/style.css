@@ -26,4 +26,7 @@ footer {
   background-color: grey
 }
 
-  
+.slide-show-render-full .slide-content {
+  height: 300px;
+  width: 300px;
+  }
