@@ -1,3 +1,14 @@
+
+.selector {
+  /* Positioning */
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+}
+
+
+
 img {
   width: 25%; height: auto;
 }
@@ -9,4 +20,10 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  
 }
+footer {
+  background-color: grey
+}
+
+  
