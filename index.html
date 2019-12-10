@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -27,80 +29,122 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow"><a class="navbar-brand"><h1>Mustafa S. Muhammad | Portfolio</h1></a>
-        <div class="container">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
             <a class="navbar-brand">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                <h1>Mustafa S. Muhammad | Full Stack Developer</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+
+        <div class="container">
+            <div class="card border-0 shadow my-5">
+                <div class="card-body p-5">
+                    <center>
+                        <img src="assets/images/K&M-43.jpg" class="rounded-circle" class="auth-image"
+                            alt="Mustafa S Muhammad">
+                    </center>
+
+                    <br>
+                    <br>
+
+                    <p class="lead">My name is Mustafa Muhammad from Philadelphia, PA. I was raised in West
+                        Philadelphia,
+                        and eventually
+                        moved to the Mt. Airy sectin of Philadelphia. I attended the historical Girard College boarding
+                        school
+                        in North Philadelphia where I spent 5 years of my childhood. I soon went on to catholic school
+                        attending
+                        Roman Catholic High (downtown Philadelphia), and transferred to, and graduated from Bishop
+                        McDevitt
+                        High
+                    </p>
+
+
+                    <p class="lead">After graduating high school, I attended the Savannah College of Art and Design
+                        where I obtained my
+                        B.F.A
+                        in photography. Post graduation I moved back to Philadelphia for a short time where I job that I
+                        had
+                        landed me in Las Vegas, NV. Most of my career has been in retail as I grew up learning the ins
+                        and
+                        outs
+                        of the retail world through my mothers store that she had for over 15 years! I currently attent
+                        the
+                        University of Pennsylvania's College of Liberal and Professional Studies Full Stack Web
+                        Development
+                        Bootcamp program. My goals are to eventually become a full fledge web developer at a respective
+                        company.
+                    </p>
+
+                    <div style="height: 50px"></div>
                 </div>
-        </div>
-    </nav>
-
-
-    <div class="container">
-        <div class="card border-0 shadow my-5">
-            <div class="card-body p-5">
-                <center>
-                    <img src="assets/images/K&M-43.jpg" class="rounded-circle" class="auth-image"
-                        alt="Mustafa S Muhammad">
-                </center>
-
-                <br>
-                <br>
-
-                <p class="lead">My name is Mustafa Muhammad from Philadelphia, PA. I was raised in West Philadelphia,
-                    and eventually
-                    moved to the Mt. Airy sectin of Philadelphia. I attended the historical Girard College boarding
-                    school
-                    in North Philadelphia where I spent 5 years of my childhood. I soon went on to catholic school
-                    attending
-                    Roman Catholic High (downtown Philadelphia), and transferred to, and graduated from Bishop McDevitt
-                    High
-                </p>
-
-
-                <p class="lead">After graduating high school, I attended the Savannah College of Art and Design
-                    where I obtained my
-                    B.F.A
-                    in photography. Post graduation I moved back to Philadelphia for a short time where I job that I
-                    had
-                    landed me in Las Vegas, NV. Most of my career has been in retail as I grew up learning the ins
-                    and
-                    outs
-                    of the retail world through my mothers store that she had for over 15 years! I currently attent
-                    the
-                    University of Pennsylvania's College of Liberal and Professional Studies Full Stack Web
-                    Development
-                    Bootcamp program. My goals are to eventually become a full fledge web developer at a respective
-                    company.
-                </p>
-
-                <div style="height: 50px"></div>
-
             </div>
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <center>
-                <h5>Mustafa Muhammad Copyright &copy;</h5>
-            </center>
+    <footer class="page-footer font-small indigo">
+        <div class="container text-center text-md-left">
+            <div class="row">
+
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">LinkedIn</h5>
+                    <a href="https://www.linkedin.com/in/mustafamuhammad81/">
+                        <img border="0" alt="LinkedIn" src="assets/images/linkedin logo.png" width="50" height="50">
+                    </a>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Resume</h5>
+                    <a href="Mustafa S Muhammad Resume word.pdf"><img border="0" alt="LinkedIn"
+                            src="assets/images/resume icon1.png" width="50" height="50">
+                    </a>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">GitHub Repo</h5>
+                    <a href="https://github.com/KrisMooseVisual"><img border="0" alt="LinkedIn"
+                            src="assets/images/my GitHub.png" width="50" height="50">
+                    </a>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liberty Beans</h5>
+                    <a href="https://young-forest-75020.herokuapp.com/"><img border="0" alt="LinkedIn"
+                            src="assets/images/1 LBlogo.png" width="50" height="50">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: Mustafa Muhammad
         </div>
     </footer>
 
